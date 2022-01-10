@@ -1,0 +1,3 @@
+com\Bean\BooksBean.class
+com\Controller\BooksServlet.class
+com\Dao\BooksDao.class

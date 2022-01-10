@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<HTML lang = "en-US">
+<head>
+	<title>FORM</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="hw1_part3_css.css">
+  	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">	
+  	</script>
+</head>
+
+
+
+<body>
+	
+	<div class = "container">
+		<div class = "text-center" style="padding-top: 10px;">
+			 <b><u><h4> FILL IN THE DETAILS HERE!</h4></u></b>
+			<hr>
+		</div>
+		
+		<div class = "row" id="img">
+			<div class = "col-lg-4">
+			</div>
+
+			<div class = "col-lg-5" >
+				<form role="form" class="form-horizontal">
+
+					<fieldset class="reset-this redo-fieldset" style="margin-left: 10px;">
+
+						<legend class="reset-this redo-legend">Fill in the Details</legend>
+						<div class="form_here">
+						<div class = "form-group">
+							
+								
+								<label for="email" class="control-label col-sm-5">Email</label>
+								<input class = "col-sm-6" type = "Email" placeholder="Enter Email" class="form-control"/>
+								
+							</div>
+							<div class="col-sm-1">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="password" class="control-label col-sm-5">Password</label>
+								<input class = "col-sm-6" type = "Email" placeholder="Enter Password" class="form-control"/>
+								
+							</div>
+							<div class="col-sm-1">
+							</div>
+						</div>
+
+						
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="password" class="control-label col-sm-5">Confirm Password</label></label>
+								<input class = "col-sm-6" type = "Email" placeholder="Confirm Password" class="form-control"/>
+								
+							</div>
+							<div class="col-sm-1">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="uploadpic" class="control-label col-sm-5">Upload your Picture</label></label>
+								<input class = "col-sm-4" type = "text" class="form-control"/>
+								<input type="file" id="imgupload" style="display:none"/>&nbsp;
+								<label class = "col-sm-2" for='imgupload'> <button id="OpenImgUpload">Browse</button></label>	
+								
+							</div>
+							<div class="col-sm-1">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="gender" class="control-label col-sm-5">Gender</label>
+								<input   class = "col-sm-1" type="radio" id="gender" value = "female"/> Female
+								<input class = "col-sm-1" type="radio" id="gender" value = "male"  /> Male
+								
+							</div>
+							<div class="col-sm-5">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="contry" class="control-label col-sm-5">Select Country</label>
+								<select class = "col-sm-6" type="radio" id="gender" value = "female" class="form-control" >
+							    	<option value="India">India</option>
+							    	<option value="United States">United States</option>
+							    	<option value="Afghanistan">Afghanistan</option>
+						    	</select>	
+								
+							</div>
+							<div class="col-sm-1">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="hobby" class="control-label col-sm-5">Hobby</label>
+								
+							    <input class = "col-sm-1"  type="checkbox" value="Cricket">	
+							    <label for="Cricket" id="hobb"> Cricket</label>
+							    <input class = "col-sm-1"  id="hobb" type="checkbox" value="Football">
+							    <label for="Football" id="hobb"> Football</label>
+								
+							</div>
+							<div class="col-sm-5">
+							</div>
+						</div>
+						
+						<div class = "form-group">
+							<div class = "form-inline">
+								
+								<label for="address" class="control-label col-sm-5">Address</label>
+								<textarea>
+								
+								</textarea>
+							</div>
+							<div class="col-sm-1">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<div class = "form-inline">
+								<div class = "col-sm-5">
+								</div>
+								<div class = "col-sm-3">
+									<input class="btn" type="submit" name="submit" style="height: 40px;">
+								</div>
+								<div class = "col-sm-4">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					</fieldset>
+
+				</form>
+			</div>
+			<div class = "col-lg-2">
+			</div>
+		</div>
+
+	</div>
+	
+
+</body>
+</HTML>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#OpenImgUpload').click(function(){ 
+			$('#imgupload').trigger('click'); 
+		});
+	});
+</script>

@@ -1,0 +1,19 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>HELLO</servlet-name>
+		<servlet-class>ServletAss1</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>HELLO</servlet-name>
+		<url-pattern>/servlet.html</url-pattern>
+	</servlet-mapping>
+
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>servlet.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

@@ -1,0 +1,63 @@
+	.reset-this {
+	  	all: inherit;
+	}
+
+	.redo-fieldset {
+	  border: 2px solid black;
+	  padding : 10px;
+	} 
+
+	.redo-legend {
+	  font-weight:bold;
+	  color: #0000e6;
+	  background: #CCCCFF;
+	  text-decoration: underline;
+	} 
+	input{
+		height:22px;
+    	font-size:12pt;
+    	text-align: center;
+	}
+	.col-sm-6:hover{
+		color:#b3b300;
+	}
+	body {
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	input,select,textarea,#gender{
+		background-color: #f2f2f2;
+	}
+	textarea{
+		width:210px;
+	}
+
+	::placeholder{
+		color: #4dd2ff;
+		font-size:12px;
+		text-align: left;
+		font-style: italic;
+	}
+
+	.btn{
+		background-color: #008CBA; 
+		color: black;
+		
+		text-align: center;
+	}
+	.form_here,.redo-fieldset {
+		background-color: #f9ecf9;
+	}
+	h4{
+		color:#993399;
+	}
+	#img{
+		background-image: url("apply_online.jpg");
+	}
+	body{
+		background-color: #ecf2f9;
+	}
+	label{
+		color:#993399;
+		font-weight: lighter;
+	}

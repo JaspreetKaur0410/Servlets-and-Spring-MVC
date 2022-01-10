@@ -1,0 +1,3 @@
+com\dao\DAO.class
+com\Controller\MoviesServlet.class
+com\bean\Movies.class

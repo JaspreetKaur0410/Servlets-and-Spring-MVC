@@ -1,0 +1,1 @@
+Jquery code is included in the HTML file to edit the table.

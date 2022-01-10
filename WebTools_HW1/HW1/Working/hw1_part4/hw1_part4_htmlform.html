@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<HTML lang = "en-US">
+
+<head>
+	<title>FORM</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="part4_css.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">	
+  	</script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	
+	<div class = "container">		
+		<div class = "row" id="heading">
+			<div class="col-lg-1" >
+				<img src="logo.png">
+			</div>
+					
+			<div class="col-lg-2">
+				<div class = "short-div" style="margin-top: 45px;"><h5>Northeastern&nbspUniversity </h5>
+				</div>
+				<div class = "short-div" style="margin-top:-20px;"><b>Human Resources</b></div> 
+			</div>
+
+			<div class="col-lg-6">
+			</div>
+
+			<div class="col-lg-3">
+				<h5 style="padding-top: 62px;"><b>TUTION WAIVER FORM</b></h5>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			
+			<div class = "col-lg-12">
+			<p class="para_1">This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and their dependents.
+			All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing this form,
+			please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form along with the submission of this form for any dependent children.</p>
+			</div>
+			
+		</div>
+		
+		<div id="bgcol">
+		<div class="row">
+			<div class = "col-lg-12">
+				<h5 class="section1">SECTION 1</h5>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = 'col-lg-3'>
+				<div class = "short-div">
+					<div class = "form-inline">
+						<label>Academic Term</label>&nbsp
+						<input type="text" name="academicterm" style="width:120px;">
+					</div>
+				</div>
+				<div id="small_text" class = "short-div"><p>(Fall, Winter, Spring, or Summer)* </p>
+				</div>
+			</div>
+			<div class = 'col-lg-5'>
+				<div class = "form-inline">
+					<label>Academic Year</label>&nbsp
+					<input type="text" name="academicterm" >
+				</div>
+			</div>
+
+			<div class = 'col-lg-4'>
+				<div class = "short-div">
+					<div class = "form-inline">
+						<label>Employee status</label>&nbsp
+						<input type="text" name="academicterm">
+					</div>
+				</div>
+				<div id="small_text" class = "short-div">
+					<input type="checkbox" value="P/T Faculty">P/T Faculty
+				    <input type="checkbox" value="Retiree">	Retiree
+				    <input type="checkbox" value="Other">Other
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			
+			<div class = "col-lg-12">
+			<p class="para_2">*Terms with multiple sessions are considered one academic term for tuition waiver purposes e.g., summer sessions I and II are considered one academic term</p>
+			</div>
+			
+		</div>
+
+		<div class="row" >
+			<div class = "col-lg-12">
+				<h5 class="section2">SECTION 2</h5>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class = 'col-lg-4'>
+				<div class = "form-inline">
+					<label>Student Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="text" name="studentname">
+				</div>
+			</div>
+
+			<div class = 'col-lg-4'>
+				<div class = "form-inline">
+					<label>Relationship to Employee</label>&nbsp
+					<input type="text" name="relation" style="width:165px;">
+				</div>
+			</div>
+
+			<div class = 'col-lg-4'>
+				<div class = "form-inline">
+					<label>Student NUID</label>&nbsp&nbsp&nbsp&nbsp
+					<input type="text" name="nuid">
+				</div>
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class = 'col-lg-7'>
+				<div class = "short-div">
+					<div class = "form-inline">
+						<label>Employee Name</label>&nbsp
+						<input type="text" name="academicterm">
+					</div>
+				</div>
+				<div id="small_text" class = "short-div"><p>(if different from Student’s)</p>
+				</div>
+			</div>
+
+			<div class = 'col-lg-1'>
+				
+			</div>
+
+			<div class = 'col-lg-4'>
+				<div class = "form-inline">
+					<label>Employee NUID</label>&nbsp
+					<input type="text" name="nuid" style="margin-top: 1px;">
+				</div>
+			</div>		
+		</div>
+
+		<div class ="row">
+			<div class = "col-lg-3">
+				<div class = "form-inline">
+					<label>Department</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input id="dept_input" type="text" name="department">
+				</div>
+			</div>
+			<div class = "col-lg-3">
+				<div class = "form-inline">
+					<label>Campus location</label>&nbsp
+					<input id="dept_input2" type="text" name="department">
+				</div>
+			</div>
+			<div class = "col-lg-3">
+				<div class = "form-inline">
+					<label>Phone Number</label>&nbsp
+					<input id="dept_input" type="text" name="department">
+				</div>
+			</div>
+			<div class = "col-lg-3">
+				<div class = "form-inline">
+					<label>Supervisor</label>&nbsp
+					<input id="dept_input2" type="text" name="department">
+				</div>
+			</div>
+		</div>
+
+		<div class="row" class="div-inline">
+			<div class = "col-lg-12">
+				<div class="form-inline">
+					
+				</div>
+			</div>
+			
+			
+		</div>
+
+
+		<div class="row">
+			<div class = "col-lg-12">
+				<h5 class="section3">SECTION 3					
+					<span class="span-1">Indicate the applicable school or program</span></h5><span>
+					</span>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-3">
+				<input type="checkbox" value="Undergraduate Program ">Undergraduate Program 
+			</div>
+			<div class="col-lg-3">
+				<input type="checkbox" value="Law School (excludes employees)">Law School (excludes employees)
+			</div>
+			<div class="col-lg-3">
+				<input type="checkbox" value="Doctoral Candidate)"> Doctoral Candidate
+			</div>
+			<div class="col-lg-3">
+				<input type="checkbox" value="Graduate School)"> Graduate School
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class="col-lg-3">
+				<input type="checkbox" value="CPS Graduate School)">  CPS Graduate School
+			</div>
+			<div class="col-lg-9">
+				<input type="checkbox" value="College of Professional Studies (CPS) Undergraduate)">  College of Professional Studies (CPS) Undergraduate
+			</div>
+		</div>
+
+		<div class="row">			
+			<div class = "col-lg-12" style="height: 60px;">
+			<p class="para_section_3" style="margin-top: 10px;">One course per academic term may be taken one-half hour before the end of your workday. If this applies to you, this form must be signed by your supervisor below and approved by Human Resources Management.</p>
+			</div>			
+		</div>
+		<div class="row">					
+			<div class = "col-lg-12"  >
+			<p class="para_section_3">Complete the following course information. If you are an employee taking a job related course, please attach the Job Related Designation Form to this waiver.
+			</p>
+			</div>			
+		</div>
+
+		<div class = "row">
+			<div class = "col-lg-12">
+				<table id="tbl">
+					<tr>
+						<th>Course No.</th>
+						<th>Course Name</th>
+						<th>Supervisor Signature</th>
+						<th>Credit Hrs.</th>
+						<th>Day(s)</th>
+						<th>Time (specify am/pm)</th>
+						
+					</tr>
+					<tr>
+						<td>Enter Course No.</td>
+						<td>Enter Course Name</td>
+						<td>Sinature</td>
+						<td>Ener Credit Hrs.</td>
+						<td>Days</td>
+						<td>Enter Time</td>
+					</tr>
+					<tr>
+						<td>Enter Course No.</td>
+						<td>Enter Course Name</td>
+						<td>Sinature</td>
+						<td>Ener Credit Hrs.</td>
+						<td>Days</td>
+						<td>Enter Time</td>
+					</tr>
+					<tr>
+						<td>Enter Course No.</td>
+						<td>Enter Course Name</td>
+						<td>Sinature</td>
+						<td>Ener Credit Hrs.</td>
+						<td>Days</td>
+						<td>Enter Time</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class = "col-lg-12">
+				<h5 class="section3">SECTION 4				
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "col-lg-12" style="height: 60px;">
+			<b><p style="margin-top: 10px;font-size: 12px;text-align: justify;">In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests that I am
+			currently enrolled in the above courses, or that the student listed above is my spouse, domestic partner or
+			unmarried dependent child or the dependent child of my domestic partner as defined under current IRS tax regulations. I also certify that I have read the Tuition Waiver Program Guidelines.
+			</p></b>
+			</div>	
+		</div>
+
+		<div class = "row" style="margin-top: 8px;">
+			<div class = "col-lg-6">
+				<label>Employee Signature</label>&nbsp
+			    <input type="text" name="academicterm">
+			</div>
+			<div class = "col-lg-6">
+				<label>Date</label>&nbsp
+			    <input type="text" name="academicterm">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class = "col-lg-12">
+				<h5 class="section3">SECTION 5				
+			</div>
+		</div>
+
+		<div class = "row" style="margin-top: 8px;">
+			<div class = "col-lg-6">
+				<label>HRM Approval</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			    <input type="text" name="academicterm">
+			</div>
+			<div class = "col-lg-6">
+				<label>Date</label>&nbsp
+			    <input type="text" name="academicterm">
+			</div>
+		</div>
+
+		<div class="row">			
+			<div class = "col-lg-12" style="height: 60px;">
+			<p class="para_section_3" style="margin-top: 10px;">Forms will be reviewed for completeness and eligibility. You will be notified if any additional information is needed. Mail completed form to
+			Human Resources, 250 Columbus Place or fax to (617) 373-7610. All waivers must be received by HRM within 30 days
+			of the course start date.</p>
+			</div>			
+		</div>
+		<hr>
+		<div class = "row">
+			<div class = "col-lg-9"></div>
+			<div class = "col-lg-3">
+			<div class = "form-inline" id=hrnav>
+				<div class="short-div" id="hr"><h4>HR</h4>
+				</div>
+				<div class="short-div" id = "navigator"><h4><b>NAVIGATOR</b></h4></div> 
+			</div></div>
+		</div>
+	</div>
+	</div>
+
+</body>
+<footer style="height: 30px;">
+	<div class = "row">
+
+	</div>
+</footer>
+</HTML>
+
+
+
+<script type="text/javascript">
+    var table = document.getElementById("tbl");
+    var cells = table.getElementsByTagName("td");
+    
+    for(var i=0;i<cells.length;i++){
+    	cells[i].onclick = function(){
+    		if(this.hasAttribute('data-clicked')){
+    			return;
+    		}
+
+    		this.setAttribute('data-clicked','yes');
+    		this.setAttribute('data-text',this.innerHTML);
+    		var input = document.createElement('input');
+    		input.setAttribute('type','text');
+    		input.value = this.innerHTML;
+    		input.style.border = "0px";
+    		input.style.fontFamily = "inherit";
+    		input.style.fontSize = "inherit";
+    		input.style.textAlign = "inherit";
+    		input.style.backgroundColor = "#E5F2F0";
+
+    		input.onblur = function(){
+    			var td = input.parentElement;
+    			var orig_text = input.parentElement.getAttribute('data-text');
+    			var current_text = this.value;
+
+    			if(orig_text != current_text){
+    				td.removeAttribute('data-clicked');
+    				td.removeAttribute('data-text');
+    				td.innerHTML = current_text;
+    				console.log(current_text);
+    			}
+    			else{
+    				// if no changes in text
+    				td.removeAttribute('data-clicked');
+    				td.removeAttribute('data-text');
+    				td.innerHTML = current_text;
+    				console.log(current_text);
+    			}
+    			input.onkeypress = function(){
+    				if(event.keyCode = 13){
+    					this.blur();
+    				}
+    			}
+    		}
+
+    		this.innerHTML = "";
+    		this.style.cssText = "padding:0px 0px";
+    		this.append(input);
+    		
+
+    	}
+    }
+</script>
+
+

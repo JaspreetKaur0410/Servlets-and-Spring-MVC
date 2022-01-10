@@ -1,0 +1,4 @@
+com\Bean\Item.class
+com\Bean\Product.class
+com\Controller\IndexServlet.class
+com\Controller\CartServlet.class
